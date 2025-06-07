@@ -1,0 +1,83 @@
+style.css 
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.business-card{
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #ede3f6;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+    margin-top: 250px;
+}
+
+.business-card:hover {
+    transform: scale(1.05);
+}
+
+.front h1 {
+    font-size: 24px;
+    margin: 0;
+    color: #333;
+}
+
+.front h3 {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #666;
+}
+
+.contact-info {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0;
+}
+
+.contact-info li {
+    margin: 10px 0;
+    color: #a42525;
+}
+
+.contact-info a {
+    text-decoration: none; 
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+
+.contact-info {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0;
+}
+
+.contact-info li {
+    margin: 10px 0;
+}
+
+.contact-info a {
+    text-decoration: none;
+    color: #0073e6;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+.image1 {
+  border-radius:50%; 
+}
